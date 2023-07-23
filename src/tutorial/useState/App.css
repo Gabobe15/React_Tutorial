@@ -1,0 +1,25 @@
+*{
+   
+    list-style: none;
+}
+
+body{
+  background: #000;
+  color: #fff;
+}
+/* li{
+    font-size: 2rem;
+} */
+
+h4{
+    color: yellow;
+}
+
+button{
+    color: red;
+    margin: 0.5rem 0;
+    margin: 0;
+    padding: 3px 5px;
+    border: none;
+    outline: 0;
+}
