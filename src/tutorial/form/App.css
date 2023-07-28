@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    text-align: left;
+}
+
+input{
+    padding: 4px 6px;
+}
+
+button{
+    margin: 5px;
+    color: #1a076b;
+    padding: 2px 4px;
+}

@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   /* margin: 0 auto; */
   padding: 2rem;
@@ -44,4 +44,8 @@
 span{
   font-size: 3rem;
   margin: 0 0.5rem;
+} */
+
+li{
+  list-style: none;
 }
