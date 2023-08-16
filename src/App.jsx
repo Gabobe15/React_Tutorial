@@ -1,12 +1,20 @@
 import './App.css'
-// import MultipleReturn from './tutorial/multiplereturns/MultipleReturn'
+
+// React Hooks 
 // import UseState from './tutorial/useState/UseState'
-// import UseEffect from './tutorial/useeffect/UseEffect'
+import UseEffect from './tutorial/useeffect/UseEffect'
 // import { UseRef } from './tutorial/useref'
-import UseCustomHook from './tutorial/customhook/UseCustomHook'
+// import UseCustomHook from './tutorial/customhook/UseCustomHook'
+
+// import MultipleReturn from './tutorial/multiplereturns/MultipleReturn'
 // import { Home, About} from './tutorial/folder_structure/Pages'
 // import {Navbar, Challenge} from './tutorial/folder_structure/Navbar'
+
 // import Form from './tutorial/form/Form'
+
+// import ContextApi from './tutorial/contextapi/contextApi'
+// import Navbar from './tutorial/contextapi/Navbar';
+
 
 // confirmation concept 
 // import { FollowUp } from './tutorial/followup'
@@ -15,19 +23,23 @@ import UseCustomHook from './tutorial/customhook/UseCustomHook'
 function App() {
   return (
     <>
-     {/* <UseState/> */}
-     {/* <UseEffect/> */}
-     {/* <MultipleReturn/> */}
-     {/* <Navbar /> */}
-     {/* <Challenge/> */}
-     {/* <Home/> */}
-     {/* <About/> */}
-     {/* <Form/> */}
-     {/* <UseRef/> */}
-     <UseCustomHook/>
-     {/* <FollowUp/> */}
+      {/* <UseState/> */}
+      <UseEffect/>
+      {/* <UseRef/> */}
+      {/* <UseCustomHook/> */}
+      {/* <Challenge/> */}
+
+      {/* <Home/> */}
+      {/* <About/> */}
+      {/* <MultipleReturn/> */}
+      {/* <Form/> */}
+      {/* <ContextApi /> */}
+      {/* <Navbar /> */}
+      {/* <Navbar/> */}
+
+      {/* <FollowUp/> */}
     </>
-  )
+  );
 }
 
 export default App

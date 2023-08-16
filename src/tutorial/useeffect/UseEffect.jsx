@@ -1,13 +1,13 @@
 // import UseEffectBasics from './UseEffectBasics'
 // import MultipleEffect from './MultipleEffect'
-// import Challenge from './Challenge'
+import Challenge from './Challenge'
 
 function UseEffect() {
   return (
     <div>
         {/* <UseEffectBasics/> */}
         {/* <MultipleEffect/> */}
-        {/* <Challenge/> */}
+        <Challenge/>
     </div>
   )
 }

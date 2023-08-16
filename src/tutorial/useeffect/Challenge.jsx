@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 import './App.css'
 
@@ -17,18 +17,20 @@ function Challenge() {
     // better way of dealing with fetching API 
     // async and try catch 
 
+    const fetchData = useCallback(async () => {
+      try {
+        const response = await fetch(url);
+        const users = await response.json();
+        setUsers(users);
+      } catch (error) {
+        console.log(error);
+      }
+    }, []);  
+
     useEffect(() => {
-        const fetchData = async() => {
-            try {
-                const response = await fetch(url)
-                const users = await response.json()
-                setUsers(users)
-            } catch (error) {
-                console.log(error)
-            }
-        }
         fetchData()
-    }, [url,users])
+    }, [fetchData])
+    
   return (
     <div className="container">
       <h1>Fetch Data Example</h1>
